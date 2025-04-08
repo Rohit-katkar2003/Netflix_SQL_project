@@ -48,11 +48,13 @@ The `netflix_analysis.sql` script includes the following queries:
 ```sql
 -- Netflix project
 USE Netflix_db;
+```
 
+```sql
 -- Select all data from the netflix_titles table to inspect its contents.
 -- Question: What does the raw data in the netflix_titles table look like?
 SELECT * FROM netflix_titles;
-
+```
 -- Count the total number of rows in the netflix_titles table.
 -- Question: How many total content items (movies and TV shows) are in the dataset?
 SELECT COUNT(*) AS [total records in data]
